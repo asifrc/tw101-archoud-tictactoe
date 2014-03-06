@@ -5,11 +5,7 @@ package com.asifrc.ttt;
  */
 public class Main {
     public static void main(String[] args) {
-        new Main().go();
-    }
-
-    public void go() {
-
+        new Game(new GameIO(), new Board()).start();
     }
 }
 

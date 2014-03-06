@@ -1,8 +1,7 @@
 package com.asifrc.ttt;
 
 import org.junit.Test;
-
-import static org.mockito.Matchers.anyString;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 /**
@@ -11,14 +10,14 @@ import static org.mockito.Mockito.*;
 public class BoardTest {
     @Test
     public void shouldPrintEmptyBoard() throws Exception {
-        GameIO mockGameIO = mock(GameIO.class);
-        Board board = new Board(mockGameIO);
-        board.print();
+        //GameIO mockGameIO = mock(GameIO.class);
+        Board board = new Board();
         String expected = "   |   |   \n" +
                 "---------\n" +
                 "   |   |   \n" +
                 "---------\n" +
                 "   |   |   \n";
-        verify(mockGameIO).print(expected);
+        String result = board.display();
+        assertEquals(expected, result);
     }
 }

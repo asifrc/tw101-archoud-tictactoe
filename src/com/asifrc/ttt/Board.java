@@ -10,8 +10,11 @@ public class Board {
     private String[][] marks = new String[3][3];
     private final String EMPTY = " ";
 
-    public Board(GameIO gio) {
-        this.gameIO = gio;
+    public Board() {
+        clear();
+    }
+
+    public void clear() {
         for (int row = 0; row < marks.length; row++) {
             String padding = "";
             for (int col = 0; col < marks.length; col++) {
@@ -20,7 +23,8 @@ public class Board {
         }
     }
 
-    public void print() {
+
+    public String display() {
         String boardString = "";
         String divider = "";
         for (int row = 0; row < marks.length; row++) {
@@ -33,6 +37,6 @@ public class Board {
             }
             boardString += " \n";
         }
-        gameIO.print(boardString);
+        return boardString;
     }
 }
