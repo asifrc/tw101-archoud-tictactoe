@@ -7,7 +7,7 @@ import com.sun.deploy.util.StringUtils;
  */
 public class Board {
     private GameIO gameIO;
-    private String[][] marks = new String[3][3];
+    private String[][] squares = new String[3][3];
     private final String EMPTY = " ";
 
     public Board() {
@@ -15,10 +15,10 @@ public class Board {
     }
 
     public void clear() {
-        for (int row = 0; row < marks.length; row++) {
+        for (int row = 0; row < squares.length; row++) {
             String padding = "";
-            for (int col = 0; col < marks.length; col++) {
-                marks[row][col] = EMPTY;
+            for (int col = 0; col < squares.length; col++) {
+                squares[row][col] = EMPTY;
             }
         }
     }
@@ -27,16 +27,27 @@ public class Board {
     public String display() {
         String boardString = "";
         String divider = "";
-        for (int row = 0; row < marks.length; row++) {
+        for (int row = 0; row < squares.length; row++) {
             String padding = " ";
             boardString += divider;
             divider = "---------\n";
-            for (int col = 0; col < marks.length; col++) {
-                boardString += padding + marks[row][col];
+            for (int col = 0; col < squares.length; col++) {
+                boardString += padding + squares[row][col];
                 padding = " | ";
             }
             boardString += " \n";
         }
         return boardString;
+    }
+
+    public String check(int position) {
+        int pos = position - 1;
+        int col = (int) Math.floor(pos/3);
+        int row = pos % 3;
+        return squares[row][col];
+    }
+
+
+    public void mark(Integer pos, String mark) {
     }
 }

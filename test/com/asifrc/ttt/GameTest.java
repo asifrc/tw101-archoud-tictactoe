@@ -45,4 +45,12 @@ public class GameTest {
         verify(mockedGameIO, times(2)).print("Player1, please enter a number from 1-9: ");
         verify(mockedGameIO).print("Invalid Number, try again. ");
     }
+
+    @Test
+    public void shouldPromptUserInputOnlyOnceWhenValidInput() throws Exception {
+        when(mockedGameIO.getInput()).thenReturn("1");
+        game.nextTurn();
+        //I'm testing for output instead of actual behavior. Should probably fix;
+        verify(mockedGameIO, times(1)).print("Player1, please enter a number from 1-9: ");
+    }
 }
