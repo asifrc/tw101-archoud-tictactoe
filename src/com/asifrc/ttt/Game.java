@@ -22,7 +22,17 @@ public class Game {
     }
 
     public void nextTurn() {
+        Integer choice = getPlayerChoice();
+        while (choice < 1 || choice > 9) {
+            gameIO.print("Invalid Number, try again. ");
+            choice = getPlayerChoice();
+        }
+    }
+
+    public Integer getPlayerChoice() {
+        //TODO: move into a Player class?
         gameIO.print("Player1, please enter a number from 1-9: ");
         String choiceText = gameIO.getInput();
+        return Integer.parseInt(choiceText);
     }
 }

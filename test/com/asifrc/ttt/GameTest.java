@@ -22,15 +22,27 @@ public class GameTest {
 
     @Test
     public void shouldDisplayPromptTextForPlayerOne() throws Exception {
-        game.nextTurn();
+        when(mockedGameIO.getInput()).thenReturn("1");
+        game.getPlayerChoice();
         String playerPrompt = "Player1, please enter a number from 1-9: ";
         verify(mockedGameIO).print(playerPrompt);
     }
 
     @Test
     public void shouldPromptForUserInput() throws Exception {
+        when(mockedGameIO.getInput()).thenReturn("1");
         game.nextTurn();
         verify(mockedGameIO).getInput();
     }
 
+    @Test
+    public void shouldPromptForValidInputWhenInvalidNumberProvided() throws Exception {
+        when(mockedGameIO.getInput())
+                .thenReturn("10")
+                .thenReturn("1");
+        game.nextTurn();
+        //I'm testing for output instead of actual behavior. Should probably fix;
+        verify(mockedGameIO, times(2)).print("Player1, please enter a number from 1-9: ");
+        verify(mockedGameIO).print("Invalid Number, try again. ");
+    }
 }
