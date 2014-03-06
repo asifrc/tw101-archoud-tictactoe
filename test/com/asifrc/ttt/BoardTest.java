@@ -2,8 +2,8 @@ package com.asifrc.ttt;
 
 import org.junit.Test;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
+import static org.mockito.Matchers.anyString;
+import static org.mockito.Mockito.*;
 
 /**
  * Created by archoud on 3/6/14.
@@ -14,11 +14,11 @@ public class BoardTest {
         GameIO mockGameIO = mock(GameIO.class);
         Board board = new Board(mockGameIO);
         board.print();
-        String expected = "   |   |\n" +
+        String expected = "   |   |   \n" +
                 "---------\n" +
-                "   |   |\n" +
+                "   |   |   \n" +
                 "---------\n" +
-                "   |   |\n";
+                "   |   |   \n";
         verify(mockGameIO).print(expected);
     }
 }
