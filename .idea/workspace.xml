@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" afterPath="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tw101-archoud-tictactoe.iws" />
@@ -76,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BoardTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="2" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="780">
+            <state line="43" column="19" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.6931818" vertical-offset="340" max-vertical-offset="780">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,16 +91,16 @@
       <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="33" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1005">
+            <state line="62" column="33" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="5" selection-start="939" selection-end="939" vertical-scroll-proportion="0.60227275" vertical-offset="260" max-vertical-offset="930">
+            <state line="53" column="37" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="930">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -267,7 +268,7 @@
       <recent name="com.asifrc.ttt" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
+  <component name="RunManager" selected="JUnit.BoardTest.shouldSetAndGetASquaresMark">
     <configuration default="false" name="BoardTest.shouldSetAndGetASquaresMark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -628,10 +629,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GameTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.shouldPromptForValidInputWhenInvalidNumberProvided" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.com.asifrc.ttt in tw101-archoud-tictactoe" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldSetAndGetASquaresMark" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldSetAndGetASquaresMark" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest.shouldPromptForValidInputWhenInvalidNumberProvided" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.com.asifrc.ttt in tw101-archoud-tictactoe" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldReturnSingleSpaceWhenCheckingEmptySquare" />
       </list>
     </recent_temporary>
@@ -663,7 +664,7 @@
       <changelist id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="" />
       <created>1394134254371</created>
       <updated>1394134254371</updated>
-      <workItem from="1394134255684" duration="12324000" />
+      <workItem from="1394134255684" duration="12464000" />
     </task>
     <task id="LOCAL-00001" summary="Main class created">
       <created>1394135883803</created>
@@ -697,11 +698,15 @@
       <created>1394148221690</created>
       <updated>1394148221690</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Moved out cooridinate mechanism into getCoord">
+      <created>1394148481264</created>
+      <updated>1394148481264</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12324000" />
+    <option name="totallyTimeSpent" value="12464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="22" width="1435" height="790" extended-state="0" />
@@ -755,7 +760,8 @@
     <MESSAGE value="Passing test for Prompting input" />
     <MESSAGE value="Finally got the invalid input loop to work" />
     <MESSAGE value="Created a square getting mechanism inside Board.check. Need to move it out and use ArrayLists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a square getting mechanism inside Board.check. Need to move it out and use ArrayLists" />
+    <MESSAGE value="Moved out cooridinate mechanism into getCoord" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved out cooridinate mechanism into getCoord" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -786,9 +792,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="2" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="780">
+        <state line="53" column="37" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="930">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -797,14 +803,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="33" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1005">
+        <state line="62" column="33" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/GameTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="5" selection-start="939" selection-end="939" vertical-scroll-proportion="0.60227275" vertical-offset="260" max-vertical-offset="930">
+        <state line="43" column="19" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.6931818" vertical-offset="340" max-vertical-offset="780">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

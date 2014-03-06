@@ -57,5 +57,9 @@ public class Board {
     }
 
     public void mark(Integer pos, String mark) {
+        int[] coord = getCoord(pos);
+        int row = coord[0];
+        int col = coord[1];
+        squares[row][col] = mark;
     }
 }

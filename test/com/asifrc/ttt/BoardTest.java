@@ -35,12 +35,12 @@ public class BoardTest {
         String result = board.check(pos);
         assertEquals(" ",result);
     }
-//    @Test
-//    public void shouldSetAndGetASquaresMark() throws Exception {
-//        Integer pos = 1;
-//        String mark = "X";
-//        board.mark(pos, mark);
-//        String result = board.check(pos);
-//        assertEquals(mark, result);
-//    }
+    @Test
+    public void shouldSetAndGetASquaresMark() throws Exception {
+        Integer pos = 1;
+        String mark = "X";
+        board.mark(pos, mark);
+        String result = board.check(pos);
+        assertEquals(mark, result);
+    }
 }
