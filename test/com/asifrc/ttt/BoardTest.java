@@ -12,7 +12,7 @@ public class BoardTest {
     @Test
     public void shouldPrintEmptyBoard() throws Exception {
         GameIO mockGameIO = mock(GameIO.class);
-        Board board = new Board();
+        Board board = new Board(mockGameIO);
         board.print();
         String expected = "   |   |\n" +
                 "---------\n" +

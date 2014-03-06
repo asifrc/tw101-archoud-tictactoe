@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/GameIO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asifrc/ttt/Main.java" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" afterPath="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tw101-archoud-tictactoe.iws" />
@@ -82,7 +80,7 @@
       <file leaf-file-name="BoardTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="367" selection-end="367" vertical-scroll-proportion="0.5113636" vertical-offset="0" max-vertical-offset="450">
+            <state line="17" column="16" selection-start="440" selection-end="440" vertical-scroll-proportion="0.57954544" vertical-offset="0" max-vertical-offset="450">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,7 +91,7 @@
       <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="15" selection-start="98" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="17" column="19" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -547,17 +545,21 @@
       <changelist id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="" />
       <created>1394134254371</created>
       <updated>1394134254371</updated>
-      <workItem from="1394134255684" duration="1841000" />
+      <workItem from="1394134255684" duration="2065000" />
     </task>
     <task id="LOCAL-00001" summary="Main class created">
       <created>1394135883803</created>
       <updated>1394135883803</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Failing test for Board.print() to display empty board">
+      <created>1394136650076</created>
+      <updated>1394136650076</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1841000" />
+    <option name="totallyTimeSpent" value="2065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="22" width="1435" height="790" extended-state="0" />
@@ -604,7 +606,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Main class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main class created" />
+    <MESSAGE value="Failing test for Board.print() to display empty board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Failing test for Board.print() to display empty board" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -630,14 +633,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="98" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="17" column="19" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="367" selection-end="367" vertical-scroll-proportion="0.5113636" vertical-offset="0" max-vertical-offset="450">
+        <state line="17" column="16" selection-start="440" selection-end="440" vertical-scroll-proportion="0.57954544" vertical-offset="0" max-vertical-offset="450">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
