@@ -41,12 +41,20 @@ public class Board {
     }
 
     public String check(int position) {
+        int[] coord = getCoord(position);
+        int row = coord[0];
+        int col = coord[1];
+        return squares[row][col];
+    }
+    private int[] getCoord(int position) {
         int pos = position - 1;
         int col = (int) Math.floor(pos/3);
         int row = pos % 3;
-        return squares[row][col];
+        int[] coord = new int[2];
+        coord[0] = row;
+        coord[1] = col;
+        return coord;
     }
-
 
     public void mark(Integer pos, String mark) {
     }

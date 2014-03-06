@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" afterPath="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/asifrc/ttt/GameTest.java" afterPath="$PROJECT_DIR$/test/com/asifrc/ttt/GameTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tw101-archoud-tictactoe.iws" />
@@ -92,7 +90,7 @@
       <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="12" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="885">
+            <state line="46" column="33" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -146,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/com/asifrc/ttt/Game.java" />
         <option value="$PROJECT_DIR$/test/com/asifrc/ttt/GameTest.java" />
         <option value="$PROJECT_DIR$/src/com/asifrc/ttt/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" />
         <option value="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" />
       </list>
     </option>
   </component>
@@ -269,7 +267,7 @@
       <recent name="com.asifrc.ttt" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.shouldPromptForValidInputWhenInvalidNumberProvided">
+  <component name="RunManager" selected="JUnit.GameTest">
     <configuration default="false" name="BoardTest.shouldSetAndGetASquaresMark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -284,34 +282,6 @@
       <option name="MAIN_CLASS_NAME" value="com.asifrc.ttt.BoardTest" />
       <option name="METHOD_NAME" value="shouldSetAndGetASquaresMark" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.asifrc.ttt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tw101-archoud-tictactoe" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.asifrc.ttt" />
-      <option name="MAIN_CLASS_NAME" value="com.asifrc.ttt.BoardTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -396,6 +366,34 @@
       <option name="MAIN_CLASS_NAME" value="com.asifrc.ttt.GameTest" />
       <option name="METHOD_NAME" value="shouldPromptForValidInputWhenInvalidNumberProvided" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.asifrc.ttt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tw101-archoud-tictactoe" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.asifrc.ttt" />
+      <option name="MAIN_CLASS_NAME" value="com.asifrc.ttt.GameTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -623,18 +621,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldSetAndGetASquaresMark" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldReturnSingleSpaceWhenCheckingEmptySquare" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.com.asifrc.ttt in tw101-archoud-tictactoe" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GameTest.shouldPromptForValidInputWhenInvalidNumberProvided" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldReturnSingleSpaceWhenCheckingEmptySquare" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.com.asifrc.ttt in tw101-archoud-tictactoe" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GameTest.shouldPromptForValidInputWhenInvalidNumberProvided" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GameTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GameTest.shouldPromptForValidInputWhenInvalidNumberProvided" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.com.asifrc.ttt in tw101-archoud-tictactoe" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldSetAndGetASquaresMark" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldReturnSingleSpaceWhenCheckingEmptySquare" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GameTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.shouldPromptForValidInputWhenInvalidNumberProvided" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.com.asifrc.ttt in tw101-archoud-tictactoe" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldSetAndGetASquaresMark" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldReturnSingleSpaceWhenCheckingEmptySquare" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -665,7 +663,7 @@
       <changelist id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="" />
       <created>1394134254371</created>
       <updated>1394134254371</updated>
-      <workItem from="1394134255684" duration="12046000" />
+      <workItem from="1394134255684" duration="12324000" />
     </task>
     <task id="LOCAL-00001" summary="Main class created">
       <created>1394135883803</created>
@@ -695,11 +693,15 @@
       <created>1394146467451</created>
       <updated>1394146467451</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created a square getting mechanism inside Board.check. Need to move it out and use ArrayLists">
+      <created>1394148221690</created>
+      <updated>1394148221690</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12046000" />
+    <option name="totallyTimeSpent" value="12324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="22" width="1435" height="790" extended-state="0" />
@@ -726,7 +728,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24335966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -752,7 +754,8 @@
     <MESSAGE value="First test passing for player prompt (displays prompt text)" />
     <MESSAGE value="Passing test for Prompting input" />
     <MESSAGE value="Finally got the invalid input loop to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finally got the invalid input loop to work" />
+    <MESSAGE value="Created a square getting mechanism inside Board.check. Need to move it out and use ArrayLists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a square getting mechanism inside Board.check. Need to move it out and use ArrayLists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -783,19 +786,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="2" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="780">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="33" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1005">
+          <folding />
         </state>
       </provider>
     </entry>
