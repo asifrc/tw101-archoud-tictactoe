@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_core_1_9_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tw101-archoud-tictactoe.iml" afterPath="$PROJECT_DIR$/tw101-archoud-tictactoe.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/GameIO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asifrc/ttt/Main.java" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tw101-archoud-tictactoe.iws" />
@@ -70,10 +70,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="194" selection-end="194" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="440">
+            <state line="11" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="17" selection-start="367" selection-end="367" vertical-scroll-proportion="0.5113636" vertical-offset="0" max-vertical-offset="450">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="15" selection-start="98" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameIO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/GameIO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="36" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -94,6 +123,9 @@
       <list>
         <option value="$PROJECT_DIR$/test/com/asifrc/ttt/MainTest.java" />
         <option value="$PROJECT_DIR$/src/com/asifrc/ttt/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/asifrc/ttt/GameIO.java" />
+        <option value="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/com/asifrc/ttt/Board.java" />
       </list>
     </option>
   </component>
@@ -161,6 +193,10 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -207,8 +243,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/com/asifrc/ttt" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.asifrc.ttt" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.BoardTest.shouldPrintEmptyBoard">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -227,6 +266,34 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="tw101-archoud-tictactoe" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BoardTest.shouldPrintEmptyBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.asifrc.ttt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tw101-archoud-tictactoe" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.asifrc.ttt" />
+      <option name="MAIN_CLASS_NAME" value="com.asifrc.ttt.BoardTest" />
+      <option name="METHOD_NAME" value="shouldPrintEmptyBoard" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -442,12 +509,14 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldPrintEmptyBoard" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldPrintEmptyBoard" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -478,12 +547,17 @@
       <changelist id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="" />
       <created>1394134254371</created>
       <updated>1394134254371</updated>
-      <workItem from="1394134255684" duration="1062000" />
+      <workItem from="1394134255684" duration="1841000" />
     </task>
+    <task id="LOCAL-00001" summary="Main class created">
+      <created>1394135883803</created>
+      <updated>1394135883803</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1062000" />
+    <option name="totallyTimeSpent" value="1841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="22" width="1435" height="790" extended-state="0" />
@@ -502,7 +576,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -529,6 +603,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Main class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main class created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -538,10 +614,33 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/GameIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="36" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="194" selection-end="194" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="440">
+        <state line="11" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="98" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="367" selection-end="367" vertical-scroll-proportion="0.5113636" vertical-offset="0" max-vertical-offset="450">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
