@@ -13,10 +13,16 @@ public class Game {
     }
 
     public void start() {
-        board.display();
+        displayBoard();
+        nextTurn();
+    }
+
+    public void displayBoard() {
+        gameIO.print(board.display());
     }
 
     public void nextTurn() {
         gameIO.print("Player1, please enter a number from 1-9: ");
+        String choiceText = gameIO.getInput();
     }
 }
