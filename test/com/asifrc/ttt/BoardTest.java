@@ -33,7 +33,7 @@ public class BoardTest {
     public void shouldReturnSingleSpaceWhenCheckingEmptySquare() throws Exception {
         Integer pos = 1;
         String result = board.check(pos);
-        assertEquals(" ",result);
+        assertEquals(" ", result);
     }
     @Test
     public void shouldSetAndGetASquaresMark() throws Exception {

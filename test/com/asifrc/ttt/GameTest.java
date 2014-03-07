@@ -53,4 +53,11 @@ public class GameTest {
         //I'm testing for output instead of actual behavior. Should probably fix;
         verify(mockedGameIO, times(1)).print("Player1, please enter a number from 1-9: ");
     }
+
+    @Test
+    public void shouldMarkASquareWhenPlayerOnePicksASquare() throws Exception {
+        when(mockedGameIO.getInput()).thenReturn("1");
+        game.nextTurn();
+        verify(mockedBoard).display();
+    }
 }
