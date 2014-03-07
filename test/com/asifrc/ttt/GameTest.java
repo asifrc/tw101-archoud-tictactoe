@@ -23,7 +23,7 @@ public class GameTest {
     @Test
     public void shouldDisplayPromptTextForPlayerOne() throws Exception {
         when(mockedGameIO.getInput()).thenReturn("1");
-        game.getPlayerChoice(1);
+        game.getPlayerChoice("Player 1");
         String playerPrompt = "Player 1, please enter a number from 1-9: ";
         verify(mockedGameIO).print(playerPrompt);
     }
@@ -51,7 +51,7 @@ public class GameTest {
         when(mockedGameIO.getInput()).thenReturn("1");
         game.nextTurn();
         //I'm testing for output instead of actual behavior. Should probably fix;
-        verify(mockedGameIO, times(1)).print("Player 1, please enter a number from 1-9: ");
+        verify(mockedGameIO, atLeastOnce()).print(anyString());
     }
 
     @Test
@@ -60,5 +60,16 @@ public class GameTest {
         game.nextTurn();
         verify(mockedBoard).mark(anyInt(), anyString());
         verify(mockedBoard).display();
+    }
+
+    @Test
+    public void shouldLetPlayerOnePlaceAndPlayerTwoPlaceAnO() throws Exception {
+        when(mockedGameIO.getInput())
+                .thenReturn("1")
+                .thenReturn("4");
+        game.nextTurn();
+        game.nextTurn();
+        verify(mockedBoard).mark(1, "X");
+        verify(mockedBoard).mark(4, "O");
     }
 }

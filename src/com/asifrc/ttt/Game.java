@@ -21,6 +21,7 @@ public class Game {
     public void start() {
         displayBoard();
         nextTurn();
+        nextTurn();
     }
 
     public void displayBoard() {
@@ -29,23 +30,26 @@ public class Game {
 
     public void nextTurn() {
         int id = getCurrentPlayerIndex();
-        Integer choice = getPlayerChoice(id);
+        String playerName = "Player " + (id + 1);
+        Integer choice = getPlayerChoice(playerName);
         while (choice < 1 || choice > 9) {
             gameIO.print("Invalid Number, try again. ");
-            choice = getPlayerChoice(id);
+            choice = getPlayerChoice(playerName);
         }
         board.mark(choice, player[id]);
         gameIO.print(board.display());
+
+        turn++;
     }
 
-    public Integer getPlayerChoice(int id) {
+    public Integer getPlayerChoice(String playerName) {
         //TODO: move into a Player class?
-        gameIO.print("Player " + id + ", please enter a number from 1-9: ");
+        gameIO.print(playerName + ", please enter a number from 1-9: ");
         String choiceText = gameIO.getInput();
         return Integer.parseInt(choiceText);
     }
 
     private int getCurrentPlayerIndex() {
-        return (turn % player.length) + 1;
+        return (turn % player.length);
     }
 }
