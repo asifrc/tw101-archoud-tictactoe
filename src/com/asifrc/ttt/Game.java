@@ -27,6 +27,7 @@ public class Game {
             gameIO.print("Invalid Number, try again. ");
             choice = getPlayerChoice();
         }
+        board.mark(choice, "X");
         gameIO.print(board.display());
     }
 

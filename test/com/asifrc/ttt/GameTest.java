@@ -58,6 +58,7 @@ public class GameTest {
     public void shouldMarkASquareWhenPlayerOnePicksASquare() throws Exception {
         when(mockedGameIO.getInput()).thenReturn("1");
         game.nextTurn();
+        verify(mockedBoard).mark( anyInt(), anyString());
         verify(mockedBoard).display();
     }
 }

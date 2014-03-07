@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" afterPath="$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java" />
+    <list default="true" id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="All Green: nextTurn prompts position, marks it, and displays board&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asifrc/ttt/Game.java" afterPath="$PROJECT_DIR$/src/com/asifrc/ttt/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/asifrc/ttt/GameTest.java" afterPath="$PROJECT_DIR$/test/com/asifrc/ttt/GameTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -69,10 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="440">
               <folding />
             </state>
           </provider>
@@ -92,16 +91,16 @@
       <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="23" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1065">
+            <state line="57" column="0" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="18" selection-start="1931" selection-end="1931" vertical-scroll-proportion="0.82954544" vertical-offset="520" max-vertical-offset="1035">
+            <state line="61" column="38" selection-start="2034" selection-end="2034" vertical-scroll-proportion="0.0" vertical-offset="610" max-vertical-offset="1050">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,7 +111,7 @@
       <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="37" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="675">
+            <state line="29" column="32" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -269,7 +268,7 @@
       <recent name="com.asifrc.ttt" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.shouldMarkASquareWhenPlayerOnePicksASquare">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="BoardTest.shouldSetAndGetASquaresMark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -283,34 +282,6 @@
       <option name="PACKAGE_NAME" value="com.asifrc.ttt" />
       <option name="MAIN_CLASS_NAME" value="com.asifrc.ttt.BoardTest" />
       <option name="METHOD_NAME" value="shouldSetAndGetASquaresMark" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GameTest.shouldPromptForValidInputWhenInvalidNumberProvided" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.asifrc.ttt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tw101-archoud-tictactoe" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.asifrc.ttt" />
-      <option name="MAIN_CLASS_NAME" value="com.asifrc.ttt.GameTest" />
-      <option name="METHOD_NAME" value="shouldPromptForValidInputWhenInvalidNumberProvided" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -406,6 +377,28 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.asifrc.ttt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.asifrc.ttt.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tw101-archoud-tictactoe" />
+      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -623,18 +616,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldSetAndGetASquaresMark" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.shouldPromptForValidInputWhenInvalidNumberProvided" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldDisplayMarkInProperSquareWhenFirstSqaureIsMarked" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GameTest.shouldMarkASquareWhenPlayerOnePicksASquare" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldDisplayMarkInProperSquareWhenFirstSqaureIsMarked" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GameTest.shouldMarkASquareWhenPlayerOnePicksASquare" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GameTest.shouldMarkASquareWhenPlayerOnePicksASquare" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldDisplayMarkInProperSquareWhenFirstSqaureIsMarked" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldSetAndGetASquaresMark" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GameTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GameTest.shouldPromptForValidInputWhenInvalidNumberProvided" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.shouldMarkASquareWhenPlayerOnePicksASquare" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldDisplayMarkInProperSquareWhenFirstSqaureIsMarked" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.shouldSetAndGetASquaresMark" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GameTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -665,7 +658,7 @@
       <changelist id="ec36ad56-04d0-4398-a13b-9a1cb5244705" name="Default" comment="" />
       <created>1394134254371</created>
       <updated>1394134254371</updated>
-      <workItem from="1394134255684" duration="14378000" />
+      <workItem from="1394134255684" duration="14994000" />
     </task>
     <task id="LOCAL-00001" summary="Main class created">
       <created>1394135883803</created>
@@ -707,11 +700,15 @@
       <created>1394148635836</created>
       <updated>1394148635836</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="All Green: nextTurn prompts position, marks it, and displays board">
+      <created>1394151092597</created>
+      <updated>1394151092597</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14378000" />
+    <option name="totallyTimeSpent" value="14994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="22" width="1435" height="790" extended-state="0" />
@@ -738,7 +735,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24335966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -767,7 +764,8 @@
     <MESSAGE value="Created a square getting mechanism inside Board.check. Need to move it out and use ArrayLists" />
     <MESSAGE value="Moved out cooridinate mechanism into getCoord" />
     <MESSAGE value="Board successfully can mark X (but doesn't do it yet in Game)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Board successfully can mark X (but doesn't do it yet in Game)" />
+    <MESSAGE value="All Green: nextTurn prompts position, marks it, and displays board" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Green: nextTurn prompts position, marks it, and displays board" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -784,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="23" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="28" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="780">
@@ -800,26 +791,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="675">
+        <state line="29" column="32" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/asifrc/ttt/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="18" selection-start="1931" selection-end="1931" vertical-scroll-proportion="0.82954544" vertical-offset="520" max-vertical-offset="1035">
+        <state line="61" column="38" selection-start="2034" selection-end="2034" vertical-scroll-proportion="0.0" vertical-offset="610" max-vertical-offset="1050">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asifrc/ttt/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="440">
+          <folding />
         </state>
       </provider>
     </entry>
