@@ -6,10 +6,16 @@ package com.asifrc.ttt;
 public class Game {
     private Board board;
     private GameIO gameIO;
+    private String[] player;
+    private int turn;
 
     public Game(GameIO gameIO, Board board) {
         this.board = board;
         this.gameIO = gameIO;
+        player = new String[2];
+        player[0] = "X";
+        player[1] = "O";
+        turn = 0;
     }
 
     public void start() {
@@ -22,19 +28,24 @@ public class Game {
     }
 
     public void nextTurn() {
-        Integer choice = getPlayerChoice();
+        int id = getCurrentPlayerIndex();
+        Integer choice = getPlayerChoice(id);
         while (choice < 1 || choice > 9) {
             gameIO.print("Invalid Number, try again. ");
-            choice = getPlayerChoice();
+            choice = getPlayerChoice(id);
         }
-        board.mark(choice, "X");
+        board.mark(choice, player[id]);
         gameIO.print(board.display());
     }
 
-    public Integer getPlayerChoice() {
+    public Integer getPlayerChoice(int id) {
         //TODO: move into a Player class?
-        gameIO.print("Player1, please enter a number from 1-9: ");
+        gameIO.print("Player " + id + ", please enter a number from 1-9: ");
         String choiceText = gameIO.getInput();
         return Integer.parseInt(choiceText);
+    }
+
+    private int getCurrentPlayerIndex() {
+        return (turn % player.length) + 1;
     }
 }
